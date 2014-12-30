@@ -1,0 +1,21 @@
+Instructions
+===============================================================================
+This project is based on python3.4
+Please install required packages by following requirements section
+
+Requirements
+-------------------------------------------------------------------------------
+- python3.x
+- mongodb
+- python3.x pip
+- virtualenv
+
+Initialize the project
+-------------------------------------------------------------------------------
+- cmd: virtualenv venv
+- cmd: pip3 install -r requrements.txt
+
+Run server
+-------------------------------------------------------------------------------
+- cmd: cd app/
+- cmd: gunicorn main:app

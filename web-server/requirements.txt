@@ -1,0 +1,4 @@
+falcon==0.2.0b1
+pymongo==2.7.2
+pyjwt==0.4.0
+gunicorn==19.1.1 
